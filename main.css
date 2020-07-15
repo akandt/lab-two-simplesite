@@ -52,6 +52,11 @@ nav {
 }
 
 /* Hero Copy - Mobile */
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+
 h1 {
     color: white;
     text-align: center;
@@ -79,4 +84,5 @@ h2 {
     height: 48px;
     width: 200px;
     border-radius: 100px;
+    margin: auto;
 }
