@@ -3,11 +3,14 @@
 *:after {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    font-weight: 400;
 }
 
 body {
-    background-image: url('assets/img-background-hero.jpg');
+    background: url('assets/img-background-hero.jpg') center center no-repeat;
+    background-size: cover;
     margin: 0px;
+    min-height: 100vh;
 }
 
 /* Nav Bar - Mobile */
@@ -49,18 +52,20 @@ nav {
 }
 
 /* Hero Copy - Mobile */
-.hero {
-    /* display: flex; */
-}
-
 h1 {
     color: white;
     text-align: center;
 }
 
+h1 span {
+    font-weight: 100;
+    display: block;
+}
+
 h2 {
     color: white;
     text-align: center;
+    font-style: italic;
 }
 
 .button-start-here {
