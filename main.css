@@ -13,13 +13,14 @@ body {
     min-height: 100vh;
 }
 
+
 /* Nav Bar - Mobile */
 nav {
     padding: 8px 16px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 200px;
+    padding-bottom: 300px;
 }
 
 .simpleSite-logo {
@@ -44,12 +45,14 @@ nav {
 }
 
 .language-icon {
+    height: 25px;
     margin: 0px 16px;
 }
 
 .language {
     display: none;
 }
+
 
 /* Hero Copy - Mobile */
 .hero {
@@ -60,6 +63,9 @@ nav {
 h1 {
     color: white;
     text-align: center;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 1.7px;
 }
 
 h1 span {
@@ -71,6 +77,10 @@ h2 {
     color: white;
     text-align: center;
     font-style: italic;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    margin: 30px 0px;
 }
 
 .button-start-here {
@@ -85,4 +95,99 @@ h2 {
     width: 200px;
     border-radius: 100px;
     margin: auto;
+}
+
+.button-start-here:hover {
+    background-image: linear-gradient(to right, #ca210a, #ca210a);
+    cursor: pointer;
+}
+
+
+/* Tablet View */
+@media screen and (min-width: 640px) {
+    h1 {
+        font-size: 55px;
+        line-height: 64px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+}
+
+
+/* Desktop View */
+@media screen and (min-width: 1200px) {
+    .nav-links-left {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-links-middle {
+        display: flex;
+        list-style: none;
+        color: white;
+        font-size: 16px;
+    }
+
+   .nav-links-middle li {
+        margin-left: 24px;
+    }
+
+    li:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+    .nav-links-right {
+        align-items: center;
+    }
+
+    .button-log-in {
+        display: block;
+        border: solid 1px #fff;
+        background-color: transparent;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 1.3px;
+        line-height: 40px;
+        text-align: center;
+        height: 40px;
+        padding: 0px 20px;
+        border-radius: 100px;
+        margin: 0px 16px;
+    }
+
+    .button-log-in:hover {
+        background-color: white;
+        color: #ca210a;
+        cursor: pointer;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+
+    .language-picker {
+        display: flex;
+        align-items: center;
+    }
+
+    .language-picker:hover {
+        background: #ca210a;
+        border-radius: 32px;
+        cursor: pointer;
+    }
+
+    .language-icon {
+        margin: 0px 8px 0px 16px;
+    }
+
+    .language {
+        display: inline;
+        color: white;
+        font-size: 16px;
+        font-weight: 100;
+        margin-right: 16px;
+    }
 }
