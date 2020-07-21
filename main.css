@@ -92,7 +92,7 @@ nav {
 .button-start-here {
     border: solid 1px #fff;
     background-image: linear-gradient(to right, #a51300, #bb1600);
-    box-shadow: 2px 2px 7px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 4px 16px 1px rgba(0, 0, 0, 0.3);
     color: white;
     text-transform: uppercase;
     letter-spacing: 1.3px;
@@ -100,7 +100,7 @@ nav {
     height: 48px;
     width: 200px;
     border-radius: 100px;
-    margin: auto;
+    margin: 0px auto 40px;
 }
 
 .button-start-here:hover {
@@ -111,26 +111,116 @@ nav {
 
 /* Themes Section */
 .section-themes {
-    height: 1200px;
+    padding: 104px 24px;
+    display: flex;
+    flex-direction: column;
 }
 
-.section-themes h2 {
+h2 {
     text-transform: uppercase;
+    margin: 0px auto 8px;
 }
 
 .themes-header-underline {
     background-color: #ca210a;
     width: 80px;
     height: 4px;
+    margin: 0px auto 24px;
 }
 
-.section-themes p {
+p {
     font-weight: 100;
+    width: 80%;
+    text-align: center;
+    margin: 0px auto 40px;
 }
 
 .image-slider {
     background-color: lightgray;
-    width: 300px;
+    width: 90%;
+    margin: 0px auto;
+}
+
+.pagination {
+    display: flex;
+    margin: 0px auto;
+    cursor: pointer;
+}
+
+.pagination-circle {
+    width: 12px;
+    height: 12px;
+    margin: 8px 4px;
+    border-radius: 24px;
+    background-color: #999;
+}
+
+.pagination-circle-selected {
+    width: 12px;
+    height: 12px;
+    margin: 8px 4px;
+    border-radius: 50%;
+    background-color: #ddd;
+}
+
+
+/* Why SimpleSite Section */
+.why-simplesite-section {
+    background-color: #f6f7f9;
+    padding: 104px 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-whysimplesite {
+    width: 90%;
+    margin: 0px auto;
+}
+
+
+/* Edit on the Go Section */
+.edit-on-go-section {
+    padding: 104px 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 22px;
+    letter-spacing: 1.3px;
+    margin: 0px auto 8px;
+}
+
+.img-my-travel-blog {
+    width: 90%;
+    margin: 0px auto;
+}
+
+
+/* Features Section */
+.features-section {
+    padding: 104px 24px;
+    background-color: #f6f7f9;
+    display: flex;
+    flex-direction: column;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+.illustration-features {
+    width: 120px;
+    margin: 0px auto 32px;
+}
+
+h4 {
+    font-size: 20px;
+    margin: 0px auto 16px;
 }
 
 
